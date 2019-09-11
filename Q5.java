@@ -83,7 +83,7 @@ public class Q5 {
 
         if (i >= (st.length() - 1)) {
           // At EOW, time to add word
-          curNode.possWords.add(st);
+          curNode.insert(st);
         }
       }
     }
